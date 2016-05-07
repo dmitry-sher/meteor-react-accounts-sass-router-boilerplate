@@ -1,0 +1,37 @@
+/* CSS declarations go here */
+@import "{wolves:bourbon}/bourbon";
+
+// VARS
+$black: #000000;
+$white: #ffffff;
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.leftPad, .rightPad {
+	display: block;
+	position: absolute;
+	z-index: 1000000;
+	background: $black;
+	top: 0;
+}
+.rightPad {
+	right: 0;
+}
+
+#render-target {
+	background: $white;
+	height: 100%;
+}
+
+.loginForm {
+	margin: 0;
+	input {
+		display: block;
+
+	}
+}
